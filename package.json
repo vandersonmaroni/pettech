@@ -1,0 +1,30 @@
+{
+  "name": "pettech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "tsx watch src/server.ts",
+    "start": "node build/server.js",
+    "build": "tsup src --out-dir build"
+  },
+  "dependencies": {
+    "dotenv": "16.4.5",
+    "fastify": "4.28.1",
+    "pg": "8.12.0",
+    "zod": "3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "22.3.0",
+    "@types/pg": "8.11.6",
+    "@typescript-eslint/eslint-plugin": "8.1.0",
+    "@typescript-eslint/parser": "8.1.0",
+    "eslint": "9.9.0",
+    "tsup": "8.2.4",
+    "tsx": "4.17.0",
+    "typescript": "5.5.4"
+  },
+  "keywords": [],
+  "author": "Vanderson Maroni",
+  "license": "ISC"
+}
